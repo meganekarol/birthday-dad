@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Happy Birthday Gloria ❤️</title>
+  <title>Happy Birthday Dad ❤️</title>
   <style>
     :root {
       --bg1: #fff7fb;
@@ -182,59 +182,67 @@
 <div class="wrap">
   <main class="card" id="startCard">
     <div class="emoji">🎁</div>
-    <h1>Hey Gloria 👀</h1>
-    <p class="sub">Someone left you a tiny birthday program.</p>
-    <button id="openBtn">Open message 💌</button>
+    <h1>Hey Papa 👀</h1>
+    <p class="sub">Quelqu’un t’a laissé un petit cadeau...</p>
+    <button id="openBtn">Ouvre-le 💌</button>
   </main>
 
   <main class="card hidden" id="loadingCard">
     <div class="emoji">💻</div>
-    <h2>Running birthday_message.py...</h2>
+    <h2>Chargement en cours...</h2>
     <div class="terminal" id="terminal"></div>
   </main>
 
   <main class="card hidden" id="messageCard">
     <div class="emoji">🥳</div>
-    <h1>Happy Birthday, Gloria ❤️</h1>
+    <h1>Joyeux 53ᵉ anniversaire Papa ❤️</h1>
+
     <div class="message">
       <p>
-        I’m honestly so grateful for how close we’ve become this past year.
-        From being classmates to living in the same building and sharing so many nice moments together,
-        I’m really happy our friendship grew the way it did. 🥹❤️
-      </p>
-      <br />
-      <p>
-        And especially since my accident, you’ve been there for me so much,
-        always helping and checking on me. I really can’t thank you enough for that.
-        It means more to me than you know. ❤️
-      </p>
-      <br />
-      <p>
-        I wish you nothing but happiness, success, love and beautiful things in this new year of your life.
-        You truly deserve it all. 🥰
-      </p>
-      <br />
-      <p>
-        Happy birthday again, and thank you for being such an amazing friend. ❤️🎂
+        Joyeux anniversaire au père le plus aimable, attentionné et battant du monde. ❤️
       </p>
 
-      <div class="signature">— Megane 💕</div>
+      <br />
+
+      <p>
+        Je suis tellement reconnaissante pour tout ce que tu fais pour nous.
+        Pour tous tes sacrifices, ta force, ton soutien et tous les efforts que tu fais
+        chaque jour pour ta famille. On ne te le dit peut-être pas assez souvent,
+        mais tout ce que tu fais compte énormément pour nous.
+      </p>
+
+      <br />
+
+      <p>
+        Tu as toujours été quelqu’un sur qui nous pouvons compter, même dans les moments
+        difficiles, et je suis très fière d’être ta fille. J’espère qu’aujourd’hui tu réalises
+        à quel point tu es aimé et apprécié. 🥹❤️
+      </p>
+
+      <br />
+
+      <p>
+        Pour tes 53 ans, je te souhaite avant tout une très bonne santé, beaucoup de paix,
+        de bonheur, de réussite et encore de très nombreuses belles années entouré des personnes
+        qui t’aiment.
+      </p>
+
+      <br />
+
+      <p>
+        Que cette nouvelle année de ta vie t’apporte tout ce que ton cœur désire.
+        Tu mérites tellement de belles choses.
+      </p>
+
+      <br />
+
+      <p>
+        Je t’aime très fort Papa. ❤️
+        Joyeux anniversaire encore ! 🎂🥳
+      </p>
+
+      <div class="signature">Ta princesse, Megane 💕</div>
     </div>
-
-    <div class="code-love">
-friendship.status = "upgraded" ❤️
-support_level = ∞
-memories_created += 1
-
-if today == "Gloria's birthday":
-    happiness += 1000
-    success += 1000
-    love += 1000
-
-print("Happy Birthday, Gloria! 🎂")
-    </div>
-
-    <p class="tiny">Compiled with love, friendship & very questionable production code 😌</p>
   </main>
 </div>
 
@@ -245,15 +253,17 @@ print("Happy Birthday, Gloria! 🎂")
   const messageCard = document.getElementById('messageCard');
   const terminal = document.getElementById('terminal');
 
-  const lines = [
-    "> importing memories...",
-    "> checking friendship status...",
-    "> support_level = ∞",
-    "> adding happiness +1000",
-    "> adding success +1000",
-    "> adding love +1000",
-    "> message ready ❤️"
-  ];
+const lines = [
+  "> chargement des souvenirs...",
+  "> vérification du statut : meilleur papa ❤️",
+  "> courage_level = ∞",
+  "> amour_pour_sa_famille = ∞",
+  "> ajout de bonheur +1000",
+  "> ajout de santé +1000",
+  "> ajout de réussite +1000",
+  "> ajout de belles années +1000",
+  "> message prêt ❤️"
+];
 
   openBtn.addEventListener('click', async () => {
     startCard.classList.add('hidden');
